@@ -1,4 +1,15 @@
 .site-branding {
+    display: flex;
+    width: 100%;
+    padding-top: 1.5 rem;
+    padding-bottom: 1.5 rem;
+
+}
+
+.container {
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .logo {
@@ -6,10 +17,32 @@
 }
 
 .site-header {
+    background-color: #fafafa;
+    padding-top: 2.25rem;
 	border: 1px solid #e1e1e1;
 	height: 118px;
-	margin-top: $base__space-unit * 2;
-	// margin-bottom: $base__space-unit * 2;
+}
+
+.social {
+    color: grey;
+    float: left;
+    margin-top: 0px;
+    width:400px;
+     i{
+        padding-right: 1.5rem;
+    }
+    li {
+        float: left;
+        margin: 5px 0px;
+        display:inline;
+    }
+    ul {
+    list-style: none;
+}
+}
+
+.social ul li {
+    display: inline;
 }
 
 .main-navigation {
