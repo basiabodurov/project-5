@@ -1,39 +1,43 @@
 .site-branding {
-    display: flex;
-    width: 100%;
-    padding-top: 1.5 rem;
-    padding-bottom: 1.5 rem;
-
+    display: flex;    
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    background-color: #fff;
+    height: 7rem;
 }
 
 .container {
-    width: 1024px;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: -30px;
 }
 
 .logo {
 	width: 300px;
+    margin-top: 1.6rem;
+    margin-left: 4rem;
 }
 
 .site-header {
-    background-color: #fafafa;
+    background-color: #fff;;
+    box-shadow: 0 2px 3px 0 rgba(150,150,150,.25);
     padding-top: 2.25rem;
-	border: 1px solid #e1e1e1;
-	height: 118px;
 }
 
 .social {
     color: grey;
     float: left;
     margin-top: 0px;
-    width:400px;
+    width:28%;
      i{
         padding-right: 1.5rem;
     }
     li {
         float: left;
-        margin: 5px 0px;
+        margin: 2rem 0rem;
         display:inline;
     }
     ul {
@@ -46,13 +50,12 @@
 }
 
 .main-navigation {
-	width: 100%;
-	margin-top: $base__space-unit;
-	border-bottom: 1px solid #e1e1e1;
-}
+	width: 1024px;
+    margin: 0 auto;
+    }
 
 .main-navigation li:first-child {
-border-left: 1px solid #e1e1e1;
+    border-left: 1px solid #e1e1e1;
 }
 
 .main-navigation li {
@@ -61,4 +64,49 @@ border-left: 1px solid #e1e1e1;
 
 .main-navigation li a {
     padding: .75rem 1.5rem;
+    font-weight: bold;
+    color: grey;
+}
+
+fieldset {
+    border: 0;
+input.search-field {
+        border: 0;
+        background-color: #fff;
+    }
+}
+
+button {
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+.header-search {
+    float: right;
+}
+
+.clearfix {
+    width: 1024px;
+    clear: both;
+    display: table;
+    margin: 0 auto;
+}
+
+li:hover a {
+    color: #400c0d;
+}
+
+.current_page_ancestor:after, .current_page_item:after {
+    content: "";
+    background-color: #db272a;
+    display: block;
+    height: 3px;
+    margin-top: -3px;
+    width: 100%;
+}
+
+.fa-search {
+    color: grey;
+    font-size: 1.2rem;
 }

@@ -30,18 +30,20 @@ access_log
 *.tar
 *.zip
 
-# Ignore everything in the root except the "wp-content" directory. #
+# Ignore everything in the root except the "wp-content" directory and wp-config.php file. #
 # ================================================================ #
 /*
 !.gitignore
 !wp-content/
+!wp-config.php
 !README.md
 
-# Ignore everything in "wp-content" except the "plugins" and "themes" directories. #
+# Ignore everything in "wp-content" except the "plugins", "themes" and "uploads" directories. #
 # ================================================================================ #
 wp-content/*
 !wp-content/plugins/
 !wp-content/themes/
+!wp-content/uploads/
 
 # Ignore everything in "plugins" except certain plugins. #
 # ========================================================== #
