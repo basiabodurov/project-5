@@ -97,7 +97,7 @@ li:hover a {
     color: #400c0d;
 }
 
-.current_page_ancestor:after, .current_page_item:after {
+.main-navigation .current-menu-item:after, .main-navigation .current_page_ancestor:after, .main-navigation .current_page_item:after {
     content: "";
     background-color: #db272a;
     display: block;
